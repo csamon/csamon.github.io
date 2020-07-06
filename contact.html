@@ -41,13 +41,21 @@
 						<section class="wrapper style5">
 							<div class="inner">
 								<section>
-									<form method="post" action="contact.php">
+
+<!--<form action="http://formspree.io/you@email.com">
+<input type="email" name="_replyto">
+<textarea   name="body">
+</textarea>
+<input type="submit" value="Send">
+</form>-->
+
+									<form method="post" action="http://formspree.io/c.samon@pm.me">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
 												<input type="text" name="cf_name" id="demo-name" value="" placeholder="Nom" />
 											</div>
 											<div class="col-6 col-12-xsmall">
-												<input type="email" name="cf_email" id="demo-email" value="" placeholder="Email" />
+												<input type="email" name="_replayto" id="demo-email" value="" placeholder="Email" />
 											</div>
 											<div class="col-12">
 												<select name="demo-category" id="demo-category">
@@ -67,13 +75,13 @@
 												<label for="demo-human">Not a robot</label>
 											</div>
 											<div class="col-12">
-												<textarea name="cf_message" id="demo-message" placeholder="Entrer votre message" rows="6"></textarea>
+												<textarea name="body" id="demo-message" placeholder="Entrer votre message" rows="6"></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="actions">
 													<li><input type="submit" value="Envoyer" class="primary" /></li>
 													<li><input type="reset" value="Reset" /></li>
-													<form action="http://formspree.io/c.samon@pm.me"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>
+													
 												</ul>
 											</div>
 										</div>
